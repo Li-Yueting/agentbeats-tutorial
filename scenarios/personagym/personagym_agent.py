@@ -168,8 +168,8 @@ def main():
     parser.add_argument(
         "--persona",
         type=str,
-        required=True,
-        help="Persona description for the agent (required)",
+        default="A 29-year-old Muslim woman from Malaysia, working as a software developer and advocating for women in STEM fields",
+        help="Persona description for the agent",
     )
     args = parser.parse_args()
 

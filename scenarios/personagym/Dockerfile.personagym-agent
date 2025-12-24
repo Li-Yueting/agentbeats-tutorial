@@ -15,6 +15,6 @@ RUN \
 COPY scenarios scenarios
 
 ENTRYPOINT ["uv", "run", "scenarios/personagym/personagym_agent.py"]
-CMD ["--host", "0.0.0.0", "--persona", "A polite and professional agent."]
+CMD ["--host", "0.0.0.0"]
 EXPOSE 8001
 

@@ -5,7 +5,7 @@ cmd = "python scenarios/personagym/personagym_evaluator.py --host 127.0.0.1 --po
 [[participants]]
 role = "agent"
 endpoint = "http://127.0.0.1:8001"
-cmd = "python scenarios/personagym/personagym_agent.py --host 127.0.0.1 --port 8001 --persona \"A polite and professional agent.\""
+cmd = "python scenarios/personagym/personagym_agent.py --host 127.0.0.1 --port 8001"
 
 [config]
 # PersonaGym specific configuration

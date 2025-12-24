@@ -28,8 +28,6 @@ jobs:
             dockerfile: scenarios/tau2/Dockerfile.tau2-evaluator
           - name: personagym-agent
             dockerfile: scenarios/personagym/Dockerfile.personagym-agent
-          - name: personagym-evaluator
-            dockerfile: scenarios/personagym/Dockerfile.personagym-evaluator
 
     # These permissions are required for the workflow to:
     # - Read repository contents (checkout code)
