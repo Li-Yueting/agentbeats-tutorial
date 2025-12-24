@@ -1,0 +1,15 @@
+[green_agent]
+# TODO: Add personagym evaluator when available
+endpoint = "http://127.0.0.1:9009"
+cmd = "python scenarios/personagym/personagym_evaluator.py --host 127.0.0.1 --port 9009"
+
+[[participants]]
+role = "agent"
+endpoint = "http://127.0.0.1:8001"
+cmd = "python scenarios/personagym/personagym_agent.py --host 127.0.0.1 --port 8001 --persona \"A polite and professional agent.\""
+
+[config]
+# PersonaGym specific configuration
+domain = "general"
+num_tasks = 4
+
